@@ -15,6 +15,14 @@ document.addEventListener("click", function (event) {
 })
 
 cursor = function(i) {
+    for (const [key, value] of Object.entries(types)) {
+        if (key == i){
+            document.getElementById(key).style.borderColor="blue"
+        }
+        else{
+            document.getElementById(key).style.borderColor="black"
+        }
+    }
     state = i
 }
 
