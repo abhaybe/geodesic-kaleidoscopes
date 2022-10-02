@@ -1,5 +1,5 @@
 # geodesic-kaleidoscopes
-Team IO's web app submission for HackMIT 2022: Geodesic Kaleidoscopes. Team IO: Ishank Agrawal, Abhay Bestrapalli, Andrew Liu
+Team IO's web app submission for HackMIT 2022: Geodesic Kaleidoscopes. Team IO: Ishank Agrawal, Abhay Bestrapalli, Andrew Liu.
 
 Welcome to our Geodesic Kaleidoscope!
 
