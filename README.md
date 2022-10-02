@@ -10,4 +10,4 @@ You may add different types of objects, with different masses, by clicking on th
 
 You may speed up the light ray using the slider in the bottom left corner. For light that exits the canvas, you may choose between reflecting (allowing the light to reflect off of the edges of the canvas) or warping (light exiting the bottom of the screen will re-enter through the top).
 
-To start the simulation, press the start button. At any point in the simulation, you may pause the simulation, or you can reset your canvas. You can use any of the buttons, slider, or checkbox during the simulation itself. Finally, you can download a beautiful screenshot by clicking on the screenshot button.
+To start the simulation, press the start button. At any point in the simulation, you may pause the simulation, or you can reset your canvas. All sliders/buttons can be modified and toggled both before and while the simulation is running. Finally, feel free to download a screenshot anytime you like the state of your canvas by clicking on the screenshot button.
