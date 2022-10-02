@@ -1,9 +1,13 @@
-# geodesic-kaleidoscopes
-Team IO's web app submission for HackMIT 2022: Geodesic Kaleidoscopes. Team IO: Ishank Agrawal, Abhay Bestrapalli, and Andrew Liu.
-Access through: https://yellowtomato98.github.io/geodesic-kaleidoscopes/
+# Welcome to the Geodesic Kaleidoscope!
 
-Welcome to our Geodesic Kaleidoscope!
+Team io's web app submission for HackMIT 2022. Team io: Ishank Agrawal, Abhay Bestrapalli, and Andrew Liu. 
 
+## 1. Access
+* Website: https://yellowtomato98.github.io/geodesic-kaleidoscopes/
+* Run locally: run 
+`git clone https://github.com/yellowtomato98/geodesic-kaleidoscopes.git` inside of the directory (e.g., desktop) that you wish to install this project. Copy the path of the `index.html` file into any browser to run the application.
+
+## 2. Description
 This web application was built to create beautiful images by simulating the movement of light in a gravitational field. The simulation of the movement of light built into this website imitates the actual bending of light due to massive objects according to the laws of general relativity.
 
 You may add different types of objects, with different masses, by clicking on the blue boxes and then placing them on the canvas. Press the deselect button to cancel any placement.
