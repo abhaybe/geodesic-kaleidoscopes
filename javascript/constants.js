@@ -22,16 +22,5 @@ var counter = 2;
 var reflect = 1;
 
 var win=0;
-// "black" -- 0
-// "blue" -- 1
-// "main" -- 2
-// "white" -- 3
-// "planet" -- 4
-
-
-// "deselect"
-// "instructions"
-
-// dict thing: {"black": }
 
 var hit_width = 40;
