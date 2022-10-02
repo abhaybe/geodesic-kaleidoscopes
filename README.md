@@ -1,6 +1,6 @@
 # geodesic-kaleidoscopes
 Team IO's web app submission for HackMIT 2022: Geodesic Kaleidoscopes. Team IO: Ishank Agrawal, Abhay Bestrapalli, and Andrew Liu.
-Can be used at https://yellowtomato98.github.io/geodesic-kaleidoscopes/
+Access through: https://yellowtomato98.github.io/geodesic-kaleidoscopes/
 
 Welcome to our Geodesic Kaleidoscope!
 
