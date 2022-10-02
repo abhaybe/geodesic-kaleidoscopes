@@ -134,7 +134,7 @@ body {
 
 .button {
     width: 150px;
-    background-color: lightblue; /* Green */
+    background-color: lightblue;
     border-width: 2px;
     border-color: black;
     border-style: solid;
@@ -227,30 +227,26 @@ body {
   
 
   .sliderContainer {
-    /* position:absolute;
-    bottom:0vh; */
     position:absolute;
     bottom:1vh;
     left:20vh;
-    width: 50%; /* Width of the outside container */
+    width: 50%; 
     color:#fff
   }
   
-  /* The slider itself */
   .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none; 
     appearance: none;
-    width: 50%; /* Full-width */
-    background: #d3d3d3; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    width: 50%; 
+    background: #d3d3d3;
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
     transition: opacity .2s;
   }
   
-  /* Mouse-over effects */
   .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1; 
   }
 
 #checkbox{
