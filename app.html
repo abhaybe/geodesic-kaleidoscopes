@@ -1,0 +1,123 @@
+</html><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HackMIT 2022: Geodesic Kaleidoscope</title>
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script src="javascript/download.js"></script>
+    <script src="javascript/mouse.js"></script>
+    <script src="javascript/constants.js"></script>
+    <script src="javascript/app.js"></script>
+    <script src="javascript/mass.js"></script>
+    <script src="javascript/particle.js"></script>
+    <script src="javascript/events.js"></script>
+</head>
+
+<body>
+    
+    <div id="wrapper">
+    </div>
+    <!-- <div class="message", id ="loss">
+        
+        You lost!
+        <div class="button2", onclick="movetoindex()">
+            Restart
+        </div>
+    </div>   
+    <div class="message", id ="win">
+        
+        You won!
+        <div class="button2", onclick="movetoindex()">
+            Restart
+        </div>
+    </div>   -->
+    <div id="instructs", onclick="instructions()">
+        Hello! Welcome to our Geodesic Kaleidoscope!
+        <br>
+        <br>
+        This web application was built to create beautiful images by simulating the movement of light in a graviational field. The simulation of the movement of 
+        light built into this website imitates the actual bending of light due to massive objects according to the laws of general relativity.
+        <br><br>
+        You may add different types of objects, with different masses, by clicking on the blue boxes and then placing them on the canvas. Press the deselect button to cancel any placement.
+        <br><br>
+        You may speed up the light ray using the slider in the bottom left corner. For light that exits the canvas, you may choose between reflecting (allowing the light to reflect off of the edges of the canvas) or
+        warping (light exiting the bottom of the screen will re-enter through the top).
+        <br><br>
+        To start the         simulation, press the start button. At any point in the simulation, you may pause the simulation, or you can reset your canvas. You can use any of the buttons, slider, or checkbox during the simulation itself.
+        Finally, you can download a beautiful screenshot by clicking on the screenshot button.
+        <br><br>
+
+        <div style="font-size: 13px;">Made with <span style="color:red;">&#10084;</span>  by Ishank, Abhay, and Andrew</div>
+    </div>
+
+    <div class="ibutton" id="game_title" onclick="redirectt()">
+        <h1>Geodesic Kaleidoscope</h1>
+    </div>
+    <!-- <div class="ibutton" id="game_title">
+        <a href="app.html"><h1>Geodesic Kaleidoscope</h1></a>
+    </div> -->
+
+       
+    <canvas id="game_canvas" width="1000" height="500">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+    
+    <div id="butt">
+        <div id="black_hole", class="button", onclick='cursor("black_hole")'>
+            Black Hole
+        </div>
+        <br>
+        <div id="blue_giant", class="button", onclick='cursor("blue_giant")'>
+            Blue Giant
+        </div>
+        <br>
+        <div id="main_sequence", class="button", onclick='cursor("main_sequence")'>
+            Main Sequence
+        </div>
+        <br>
+        <div id="white_dwarf", class="button", onclick='cursor("white_dwarf")'>
+            White Dwarf
+        </div>
+        <div id="planet", class="button", onclick='cursor("planet")'>
+            Planet
+        </div>
+        <div id = "deselect", class="button", onclick='cursor(1)'>
+            Deselect
+        </div>
+        <br>
+        <br>
+        <div id = "play", class="button", onclick='playy()'>
+            Play
+        </div>
+        <div id = "instructions", class="button", onclick='instructions()'>
+            Instructions
+        </div>
+        <div id = "screenshot", class="button", onclick='screenshot()'>
+            Screenshot
+        </div>
+        <div id = "reset", class="button", onclick='reset()'>
+            Reset
+        </div>
+
+    </div>
+
+    <div class="sliderContainer">
+        <input type="range" min="0.5" max="5" value="1" step="0.01" class="slider" id="myRange" oninput="rangeValue.innerText = this.value">
+        Speed
+    </div>
+
+    <div id="checkbox" style="color: white">
+        <input type="checkbox" onclick="reflection_checked()" checked> Reflection
+    </div>
+
+
+    <script>
+        myApp = new App("game_canvas");
+        myApp.main();
+    </script>
+
+</body>
+
+</html>

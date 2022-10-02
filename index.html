@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HackMIT 2022</title>
+    <title>HackMIT 2022: Geodesic Kaleidoscope</title>
     <link rel="stylesheet" href="/styles.css" />
 
     <script src="javascript/mouse.js"></script>
@@ -11,31 +11,55 @@
     <script src="javascript/mass.js"></script>
     <script src="javascript/particle.js"></script>
     <script src="javascript/events.js"></script>
+    <script src="javascript/overlay.js"></script>
+    <meta charset="UTF-8">
 </head>
 
-<body>
-    <!--<div id="overlay">
 
-    </div>-->
-
-
-    <h1>Gravitational Bending Classroom Webapp</h1>
-    <canvas id="game_canvas" width="1000" height="500">
-        Your browser does not support the HTML canvas tag.
-    </canvas>
-    
-    <div>
-        <div id="black_hole"></div>
-        <div id="blue_giant"></div>
-        <div id="main_sequence"></div>
-        <div id="white_dwarf"></div>
-        <div id="planet"></div>
+<body id = "overlaybody">
+    <div id="wrapperstrong">
+    </div>
+        <h1><div class='title'>HACKMIT 2022: 
+            <br>
+            GEODESIC KALEIDOSCOPE</div></h1>
+        <p>
+        <div id = "overlay">
+            Welcome To Space.
+        </div>   
+        <!-- <br>
+        Peter Parker is emitting light from his laser somewhere in a galaxy far far away.
+        <br>
+        Your job is to get that light beam to Mr. Wayne in his home in The Shire.
+        <br>
+        To do this, use your knowledge of space-time warping to curve light and get the important message across the universe! 
+        <br>  -->
+        <!-- Press the button to play! -->
+        </p> 
+    <div id="enter_button">
+        <a href="app.html"><img src="./assets/enter.png" width="300px"></img></a>
     </div>
 
-    <script>
-        myApp = new App("game_canvas");
-        myApp.main();
-    </script>
+    <div class="i_button" id="instructions_button" onclick="instructions()">
+        <img src="./assets/instructions.png" width="300px"></img>
+    </div>
+    <div id="instructs", onclick="instructions()">
+        Hello! Welcome to our Geodesic Kaleidoscope!
+        <br>
+        <br>
+        This web application was built to create beautiful images by simulating the movement of light in a gravitational field. The simulation of the movement of 
+        light built into this website imitates the actual bending of light due to massive objects according to the laws of general relativity.
+        <br><br>
+        You may add different types of objects, with different masses, by clicking on the blue boxes and then placing them on the canvas. Press the deselect button to cancel any placement.
+        <br><br>
+        You may speed up the light ray using the slider in the bottom left corner. For light that exits the canvas, you may choose between reflecting (allowing the light to reflect off of the edges of the canvas) or
+        warping (light exiting the bottom of the screen will re-enter through the top).
+        <br><br>
+        To start the simulation, press the start button. At any point in the simulation, you may pause the simulation, or you can reset your canvas. You can use any of the buttons, slider, or checkbox during the simulation itself.
+        Finally, you can download a beautiful screenshot by clicking on the screenshot button.
+        <br><br>
+         
+        <div style="font-size: 13px;">Made with <span style="color:red;">&#10084;</span>  by Ishank, Abhay, and Andrew</div>
+    </div>
 </body>
 
 </html>
